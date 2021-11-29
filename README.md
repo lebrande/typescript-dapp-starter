@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# Basic Sample Hardhat Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-## Available Scripts
+Try running some of the following tasks:
 
-In the project directory, you can run:
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/script-name.js
+npx hardhat help
+```
 
-### `yarn start`
+## Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [FULL VIDEO TUTORIAL](https://www.youtube.com/watch?v=a0osIaAOFSE) - Nader Dabit - The Complete Guide to Full Stack Ethereum Development - Tutorial for Beginners 2021
+- [Hardhat in 2 min](https://www.youtube.com/watch?v=tfFsW_s4hZU) - What's Hardhat Youtube video
+- [Ropsten Ethereum Faucet](https://faucet.ropsten.be/) - you need ETH to deploy into Ropsten public test network
+- [Infura](https://infura.io/) - Ethereum node for public networks
+- [Hardhat + Typescript guide](https://hardhat.org/guides/typescript.html)
+- [More about Hardhat + TS](https://rahulsethuram.medium.com/the-new-solidity-dev-stack-buidler-ethers-waffle-typescript-tutorial-f07917de48ae)
+- [Other Hardhat + TS example repo](https://github.com/rhlsthrm/typescript-solidity-dev-starter-kit)
+- [ERC20 documentation](https://docs.openzeppelin.com/contracts/2.x/erc20-supply) - OpenZeppelin
+- [Remix](https://remix.ethereum.org/) - Solidity sandbox
+- [Block explorer for Ropsten test network](https://ropsten.etherscan.io/)
+- [Create React App](https://create-react-app.dev/docs/adding-typescript/) - template for your frontend with TypeScript support
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
